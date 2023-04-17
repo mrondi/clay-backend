@@ -2,8 +2,8 @@
 ## Instalación
 
 1. Clonar repositorio.
-2. Instalar modulos con "npm i" 
-3. Iniciar API con "npm start"
+2. Instalar modulos con "npm i". 
+3. Iniciar API con "npm start".
 
 ## Deploy Productivo: DigitalOcean & MongoDB Atlas
 
@@ -45,7 +45,7 @@ La solución se base en una colección llamada Locale, con el siguiente Schema:
 Donde el detalle es...
 
 - **module**: Indica el modulo o componente de donde proviene esa cadena.
-- **key**: Es la clave indentificadora de la cadena, ej: 'btn_aceptar' (debe ser clave unica junto a la clave: "module")
+- **key**: Es la clave indentificadora de la cadena, ej: 'btn_aceptar' (debe ser clave unica junto a la clave: "module").
 - **lang**: Se espera un Object con el set de lenguajes, "lang.es" es requerido al crear un documento.
 
 
@@ -66,4 +66,4 @@ Donde el detalle es...
 
 ## Otras Consideraciones
 
-- Validaciones de Request con Joi
+- Validaciones de Request con Joi.
