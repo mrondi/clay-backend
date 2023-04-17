@@ -16,3 +16,8 @@ http://137.184.205.241/api/v1/
 
 ## Documentación API
 https://documenter.getpostman.com/view/14221286/2s93Xwyizg
+
+
+## Otras Consideraciones
+
+- Validaciones de Request con Joi
