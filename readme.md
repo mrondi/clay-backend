@@ -22,7 +22,7 @@ https://documenter.getpostman.com/view/14221286/2s93Xwyizg
 
 ## Sobre la Solución
 
-La solución se base en una unica colección llamada Locale, con el siguiente Schema:
+La solución se base en una única colección llamada Locale, con el siguiente Schema:
 
 ```json
     {
