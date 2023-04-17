@@ -25,11 +25,11 @@ La solución se base en una colección llamada Locale, con el siguiente Schema:
     {
         "module": {
             "required": true,
-            "type": String
+            "type": "String"
         },
         "key": {
             "required": true,
-            "type": String,        
+            "type": "String",        
         },
         "lang": {
             "es": { "required": true, "type": "String"},        
