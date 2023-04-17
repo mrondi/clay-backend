@@ -13,7 +13,6 @@ Se usa **PM2** para la ejecución persistente del API. Se usa **MongoDB Atlas** 
 
 Solo por razones de testing rápido se incluye el archivo ".env" en el repositorio GIT, se que no es una practica aconsejable ya que se exponen secrets, api keys, etc.
 
-
 ## URL Base Productivo
 http://137.184.205.241/api/v1/
 
@@ -22,7 +21,7 @@ https://documenter.getpostman.com/view/14221286/2s93Xwyizg
 
 ## Sobre la Solución
 
-La solución se base en una única colección llamada Locale, con el siguiente Schema:
+La solución creada con Node + Express + MongoDB se base en una única colección llamada **Locale**, con el siguiente Schema:
 
 ```json
     {
@@ -48,9 +47,7 @@ Donde el detalle es...
 - **key**: Es la clave indentificadora de la cadena, ej: 'btn_aceptar' (debe ser clave unica junto a la clave: "module").
 - **lang**: Se espera un Object con el set de lenguajes, "lang.es" es requerido al crear un documento.
 
-
 **Ejemplo**
-
 
 ```json
     {
