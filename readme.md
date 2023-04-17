@@ -7,9 +7,12 @@
 
 ## Deploy Productivo: DigitalOcean & MongoDB Atlas
 
-El deploy a producción se realizo en un Droplet en la nube de Digital Ocean, la base de datos esta alojada en Mongo Atlas. (Solo por razones de testing rápido se incluye el archivo ".env" en el repositorio GIT, se que no es una practica aconsejable ya que se exponen secrets, api keys, etc.)
+El deploy a producción se realizo en un Droplet de Digital Ocean. El API corre bajo el servidor Caddy, configurado como proxy reverso. 
 
-El API corre bajo el servidor Caddy, configurado como proxy reverso. Se uso PM2 para la ejecución persistente de la API.
+Se usa PM2 para la ejecución persistente de la API. Se usa MongoDB Atlas para alojar el cluster. 
+
+Solo por razones de testing rápido se incluye el archivo ".env" en el repositorio GIT, se que no es una practica aconsejable ya que se exponen secrets, api keys, etc.
+
 
 ## URL Base Productivo
 http://137.184.205.241/api/v1/
