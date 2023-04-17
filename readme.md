@@ -1,9 +1,9 @@
 
 ## Instalación
 
-1 - Clonar repositorio.
-2 - Instalar modulos con "npm i" 
-3 - Iniciar API con "npm start"
+1. Clonar repositorio.
+2. Instalar modulos con "npm i" 
+3. Iniciar API con "npm start"
 
 ## Deploy Productivo: DigitalOcean & MongoDB Atlas
 
