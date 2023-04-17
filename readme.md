@@ -17,6 +17,27 @@ http://137.184.205.241/api/v1/
 ## Documentación API
 https://documenter.getpostman.com/view/14221286/2s93Xwyizg
 
+## Sobre la solución
+
+La solucion se base en una colección llamada Locale, con el siguiente Schema:
+
+<code>
+    {
+        module: {
+            required: true,
+            type: String
+        },
+        key: {
+            required: true,
+            type: String,        
+        },
+        lang: {
+            es: { required: true, type: String},        
+            en: { required: false, type: String},
+            pt: { required: false, type: String},           
+        }
+    }
+</code>
 
 ## Otras Consideraciones
 
