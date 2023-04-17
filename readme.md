@@ -32,9 +32,9 @@ La solución se base en una colección llamada Locale, con el siguiente Schema:
             "type": String,        
         },
         "lang": {
-            "es": { "required": true, "type": String},        
-            "en": { "required": false, "type": String},
-            "pt": { "required": false, "type": String},           
+            "es": { "required": true, "type": "String"},        
+            "en": { "required": false, "type": "String"},
+            "pt": { "required": false, "type": "String"},           
         }
     }
 ```
