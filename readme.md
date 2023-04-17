@@ -21,7 +21,7 @@ https://documenter.getpostman.com/view/14221286/2s93Xwyizg
 
 La solucion se base en una colección llamada Locale, con el siguiente Schema:
 
-<code>
+```json
     {
         module: {
             required: true,
@@ -37,7 +37,7 @@ La solucion se base en una colección llamada Locale, con el siguiente Schema:
             pt: { required: false, type: String},           
         }
     }
-</code>
+```
 
 ## Otras Consideraciones
 
