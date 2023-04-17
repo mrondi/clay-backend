@@ -38,6 +38,11 @@ La solucion se base en una colección llamada Locale, con el siguiente Schema:
         }
     }
 ```
+Donde:
+
+- module: indica el modulo o componente de donde proviene esa cadena.
+- key: es la clave indentificadora de la cadena, ej: 'btn_aceptar' (debe ser clave unica junto la clave "module")
+- lang: contiene object con el set de lenguajes, "lang.es" es requerido al crear un documento.
 
 ## Otras Consideraciones
 
