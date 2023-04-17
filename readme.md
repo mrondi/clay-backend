@@ -23,18 +23,18 @@ La solución se base en una colección llamada Locale, con el siguiente Schema:
 
 ```json
     {
-        module: {
-            required: true,
-            type: String
+        "module": {
+            "required": true,
+            "type": String
         },
-        key: {
-            required: true,
-            type: String,        
+        "key": {
+            "required": true,
+            "type": String,        
         },
-        lang: {
-            es: { required: true, type: String},        
-            en: { required: false, type: String},
-            pt: { required: false, type: String},           
+        "lang": {
+            "es": { "required": true, "type": String},        
+            "en": { "required": false, "type": String},
+            "pt": { "required": false, "type": String},           
         }
     }
 ```
