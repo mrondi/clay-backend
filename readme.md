@@ -45,6 +45,22 @@ Donde el detalle es...
 - **key**: Es la clave indentificadora de la cadena, ej: 'btn_aceptar' (debe ser clave unica junto a la clave: "module")
 - **lang**: Se espera un Object con el set de lenguajes, "lang.es" es requerido al crear un documento.
 
+
+**Ejemplo**
+
+
+```json
+    {
+        "module": "flujo_caja",
+        "key": "btn_aceptar",
+        "lang": {
+            "es": "Aceptar",        
+            "en": "Accept",
+            "pt": "Aceitar",           
+        }
+    }
+```
+
 ## Otras Consideraciones
 
 - Validaciones de Request con Joi
