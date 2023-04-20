@@ -13,7 +13,7 @@ El deploy a producción se realizó en un Droplet de **Digital Ocean**. El API d
 
 Se usa **PM2** para la ejecución persistente del API. Se usa **MongoDB Atlas** para alojar el cluster de datos. 
 
-Solo por razones de testing rápido se incluye el archivo ".env" en el repositorio GIT, se que no es una practica aconsejable ya que se exponen secrets, api keys, etc.
+> Solo por razones de testing rápido se incluye el archivo ".env" en el repositorio GIT, se que no es una practica aconsejable ya que se exponen secrets, api keys, etc.
 
 ## URL Base Productivo
 http://137.184.205.241/api/v1/
