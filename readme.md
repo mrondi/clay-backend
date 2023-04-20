@@ -11,7 +11,7 @@
 
 El deploy a producción se realizo en un Droplet de **Digital Ocean**. El API desarrolada en: Node + Express + MongoDB es servida por **Caddy** configurado como proxy reverso. 
 
-Se usa **PM2** para la ejecución persistente del API. Se usa **MongoDB Atlas** para alojar el cluster. 
+Se usa **PM2** para la ejecución persistente del API. Se usa **MongoDB Atlas** para alojar el cluster de datos. 
 
 Solo por razones de testing rápido se incluye el archivo ".env" en el repositorio GIT, se que no es una practica aconsejable ya que se exponen secrets, api keys, etc.
 
