@@ -9,7 +9,7 @@
 
 <img width="100%" alt="Captura de pantalla 2023-04-17 a las 18 15 11" src="https://user-images.githubusercontent.com/898971/232612736-a2534b83-74e4-410f-9b61-ec93f2225fc8.png">
 
-El deploy a producción se realizó en un Droplet de [Digital Ocean]. El API desarrolada en: Node + Express + MongoDB es servida por [Caddy](https://caddyserver.com/) configurado como proxy reverso. 
+El deploy a producción se realizó en un Droplet de [Digital Ocean](https://digitalocean.com/). El API desarrolada en: Node + Express + MongoDB es servida por [Caddy](https://caddyserver.com/) configurado como proxy reverso. 
 
 Se usa [PM2](https://pm2.keymetrics.io/) para la ejecución persistente del API. Se usa [MongoDB Atlas](https://www.mongodb.com/es/atlas/database) para alojar el cluster de datos. 
 
