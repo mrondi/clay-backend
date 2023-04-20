@@ -5,7 +5,7 @@
 2. Instalar modulos con "npm i". 
 3. Iniciar API con "npm start".
 
-## Deploy Productivo: DigitalOcean & MongoDB Atlas
+## Deploy Productivo
 
 <img width="100%" alt="Captura de pantalla 2023-04-17 a las 18 15 11" src="https://user-images.githubusercontent.com/898971/232612736-a2534b83-74e4-410f-9b61-ec93f2225fc8.png">
 
