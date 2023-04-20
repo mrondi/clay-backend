@@ -9,7 +9,7 @@
 
 <img width="100%" alt="Captura de pantalla 2023-04-17 a las 18 15 11" src="https://user-images.githubusercontent.com/898971/232612736-a2534b83-74e4-410f-9b61-ec93f2225fc8.png">
 
-El deploy a producción se realizo en un Droplet de **Digital Ocean**. El API corre bajo el servidor **Caddy**, configurado como proxy reverso. 
+El deploy a producción se realizo en un Droplet de **Digital Ocean**. El API desarrolada en: Node + Express + MongoDB es servida por **Caddy**, configurado como proxy reverso. 
 
 Se usa **PM2** para la ejecución persistente del API. Se usa **MongoDB Atlas** para alojar el cluster. 
 
@@ -23,7 +23,7 @@ https://documenter.getpostman.com/view/14221286/2s93Xwyizg
 
 ## Sobre la Solución
 
-La solución creada con Node + Express + MongoDB se base en una única colección llamada **Locale**, con el siguiente Schema:
+La solución se base en una única colección llamada **Locale**, con el siguiente Schema:
 
 ```json
     {
