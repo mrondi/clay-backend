@@ -65,4 +65,4 @@ Donde el detalle es...
 
 ## Otras Consideraciones
 
-- Validaciones de Request con [Joi].
+- Validaciones de Request con [Joi](https://joi.dev/).
